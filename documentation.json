@@ -7,7 +7,7 @@
         "pages": [
           {
             "title": "Welcome",
-            "path": "index"
+            "path": "home"
           }
         ]
       },
