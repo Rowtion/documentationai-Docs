@@ -9,7 +9,7 @@ author:
 
 ## 示例
 
-![](../images/Correlation/UMAPplot_demo.png){fig-alt="UMAPplot DEMO1" fig-align="center" width="60%"}
+![](../images/Correlation/UMAPplot_demo.png)
 
 UMAP（Uniform Manifold Approximation and Projection，均匀流形近似和投影）是一种强大的非线性降维技术，主要应用于处理高维数据。UMAP算法的核心在于保持数据的局部和全局结构，通过构建数据点之间的邻近关系图，利用图的拓扑结构进行流形近似和优化。它能够将高维数据有效地映射到低维空间，以便于可视化和进一步分析，在生物信息学中，非常适合用于处理基因表达、微生物组等具有高维特征的数据。下面我们将分别展示在二分类的临床数据和单细胞测序数据中UMAP的应用。
 
@@ -138,7 +138,7 @@ ggplot(data.frame(wdbc_umap$layout, Diagnosis = diagnosis),
 ```
 
 :::
-![](../images/Correlation/UMAPplot_fig1-1.png){fig-alt="UMAPplot1-1" fig-align="center" width="60%"}
+![](../images/Correlation/UMAPplot_fig1-1.png)
 
 临床表型数据UMAP可视化
 
@@ -197,7 +197,7 @@ for (i in seq_along(params)) {
 ```
 
 :::
-![](../images/Correlation/UMAPplot_fig1-2.png){fig-alt="UMAPplot1-2" fig-align="center" width="60%"}
+![](../images/Correlation/UMAPplot_fig1-2.png)
 
 参数敏感性分析
 
@@ -228,7 +228,7 @@ for (i in seq_along(group_ident)) {
 ```
 
 :::
-![](../images/Correlation/UMAPplot_fig2-1.png){fig-alt="UMAPplot2-1" fig-align="center" width="60%"}
+![](../images/Correlation/UMAPplot_fig2-1.png)
 
 Seurat UMAP可视化
 
@@ -262,14 +262,14 @@ ggplot(umap_df, aes(UMAP_1, UMAP_2, color = CellType)) +
 ```
 
 :::
-![](../images/Correlation/UMAPplot_fig3-1.png){fig-alt="UMAPplot3-1" fig-align="center" width="60%"}
+![](../images/Correlation/UMAPplot_fig3-1.png)
 
 ggplot2自定义UMAP可视化
 
 ## 应用场景
 
 :::
-![](../images/Correlation/UMAPplot_app.png){fig-alt="UMAPApp1" fig-align="center" width="60%"}
+![](../images/Correlation/UMAPplot_app.png)
 
 UMAP图应用
 
