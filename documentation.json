@@ -3,323 +3,323 @@
   "navigation": {
     "groups": [
       {
-        "group": "Introduction",
+        "group": "简介",
         "pages": [
           {
-            "title": "Welcome",
+            "title": "Bizard",
             "path": "index"
           }
         ]
       },
       {
-        "group": "Distribution",
+        "group": "分布",
         "pages": [
           {
-            "title": "Violin Plot",
+            "title": "小提琴图",
             "path": "Distribution/ViolinPlot"
           },
           {
-            "title": "Density Plot",
+            "title": "密度图",
             "path": "Distribution/Density"
           },
           {
-            "title": "Histogram",
+            "title": "直方图",
             "path": "Distribution/Histogram"
           },
           {
-            "title": "BreakPlot",
+            "title": "断点图",
             "path": "Distribution/BreakPlot"
           },
           {
-            "title": "Box Plot",
+            "title": "箱线图",
             "path": "Distribution/BoxPlot"
           },
           {
-            "title": "Ridgeline Plot",
+            "title": "山脊线图",
             "path": "Distribution/Ridgeline"
           },
           {
-            "title": "Beeswarm Plot",
+            "title": "蜂群图",
             "path": "Distribution/Beeswarm"
           },
           {
-            "title": "RadialColumnChart",
+            "title": "径向柱状图",
             "path": "Distribution/RadialColumnChart"
           }
         ]
       },
       {
-        "group": "Correlation",
+        "group": "相关",
         "pages": [
           {
-            "title": "Scatter Plot",
+            "title": "散点图",
             "path": "Correlation/Scatter"
           },
           {
-            "title": "Heatmap",
+            "title": "热图",
             "path": "Correlation/Heatmap"
           },
           {
-            "title": "ComplexHeatmap",
+            "title": "复杂热图",
             "path": "Correlation/ComplexHeatmap"
           },
           {
-            "title": "Correlogram",
+            "title": "相关图",
             "path": "Correlation/Correlogram"
           },
           {
-            "title": "Bubble Plot",
+            "title": "气泡图",
             "path": "Correlation/Bubble"
           },
           {
-            "title": "Connected Scatter",
+            "title": "连接散点图",
             "path": "Correlation/ConnectedScatter"
           },
           {
-            "title": "2D Density",
+            "title": "二维密度图",
             "path": "Correlation/Density2D"
           },
           {
-            "title": "PCA Plot",
+            "title": "PCA图",
             "path": "Correlation/PCAplot"
           },
           {
-            "title": "UMAP Plot",
+            "title": "UMAP图",
             "path": "Correlation/UMAPplot"
           },
           {
-            "title": "Biplot",
+            "title": "载荷图",
             "path": "Correlation/Biplot"
           },
           {
-            "title": "TernaryPlot",
+            "title": "Ternary chart",
             "path": "Correlation/TernaryPlot"
           }
         ]
       },
       {
-        "group": "Ranking",
+        "group": "排名",
         "pages": [
           {
-            "title": "Bar Plot",
+            "title": "条形图",
             "path": "Ranking/BarPlot"
           },
           {
-            "title": "Radar/Spider Chart",
+            "title": "雷达图",
             "path": "Ranking/Radar"
           },
           {
-            "title": "Wordcloud",
+            "title": "词云图",
             "path": "Ranking/Wordcloud"
           },
           {
-            "title": "Parallel Coordinates Plot",
+            "title": "平行坐标图",
             "path": "Ranking/Parallel"
           },
           {
-            "title": "Lollipop Plot",
+            "title": "棒棒糖图",
             "path": "Ranking/Lollipop"
           },
           {
-            "title": "Circular Barplot",
+            "title": "圆形条形图",
             "path": "Ranking/CircularBarplot"
           },
           {
-            "title": "Table",
+            "title": "表格",
             "path": "Ranking/Table"
           },
           {
-            "title": "VeenPlot",
+            "title": "韦恩图",
             "path": "Ranking/VennPlot"
           },
           {
-            "title": "UpsetPlot",
+            "title": "Upset图",
             "path": "Ranking/UpsetPlot"
           }
         ]
       },
       {
-        "group": "Composition",
+        "group": "组成",
         "pages": [
           {
-            "title": "Grouped and Stacked Barplot",
+            "title": "分组和堆叠条形图",
             "path": "Composition/GroupedBarplot"
           },
           {
-            "title": "Treemap",
+            "title": "矩形树图",
             "path": "Composition/Treemap"
           },
           {
-            "title": "Donut Chart",
+            "title": "环状图",
             "path": "Composition/Donut"
           },
           {
-            "title": "Pie Chart",
+            "title": "饼图",
             "path": "Composition/PieChart"
           },
           {
-            "title": "Part Pie Chart",
+            "title": "部分高亮饼图",
             "path": "Composition/PartPieChart"
           },
           {
-            "title": "Dendrogram",
+            "title": "树状图",
             "path": "Composition/Dendrogram"
           },
           {
-            "title": "Circular Packing Chart",
+            "title": "包珠图",
             "path": "Composition/CircularPacking"
           },
           {
-            "title": "Waffle Chart",
+            "title": "华夫饼图",
             "path": "Composition/Waffle"
           }
         ]
       },
       {
-        "group": "Evolution",
+        "group": "演变",
         "pages": [
           {
-            "title": "Line Chart",
+            "title": "线性图",
             "path": "DataOverTime/LineChart"
           },
           {
-            "title": "Area Chart",
+            "title": "面积图",
             "path": "DataOverTime/AreaChart"
           },
           {
-            "title": "Stacked Area Chart",
+            "title": "堆叠面积图",
             "path": "DataOverTime/StackedArea"
           },
           {
-            "title": "Streamgraph",
+            "title": "流线图",
             "path": "DataOverTime/Streamgraph"
           },
           {
-            "title": "Timeseries",
+            "title": "时间序列图",
             "path": "DataOverTime/Timeseries"
           },
           {
-            "title": "Calend Highlight",
+            "title": "日期高亮标记",
             "path": "DataOverTime/CalendHighlight"
           }
         ]
       },
       {
-        "group": "Proportion/Flow",
+        "group": "比例/流向",
         "pages": [
           {
-            "title": "Chord Diagram",
+            "title": "和弦图",
             "path": "Proportion/ChordDiagram"
           },
           {
-            "title": "Network Graph",
+            "title": "网络图",
             "path": "Proportion/Network"
           },
           {
-            "title": "Sankey Diagram",
+            "title": "桑基图",
             "path": "Proportion/Sankey"
           },
           {
-            "title": "Arc Diagram",
+            "title": "弧形图",
             "path": "Proportion/ArcDiagram"
           }
         ]
       },
       {
-        "group": "Animation",
+        "group": "动画",
         "pages": [
           {
-            "title": "Animation",
+            "title": "动画图",
             "path": "Animation/Animation"
           },
           {
-            "title": "Interactivity",
+            "title": "交互式图表",
             "path": "Animation/Interactivity"
           }
         ]
       },
       {
-        "group": "OMICS",
+        "group": "组学",
         "pages": [
           {
-            "title": "CollinearityPlot",
+            "title": "共线性图",
             "path": "Omics/CollinearityPlot"
           },
           {
-            "title": "GeneStructurePlot",
+            "title": "基因结构图",
             "path": "Omics/GeneStructurePlot"
           },
           {
-            "title": "ManhattanPlot",
+            "title": "曼哈顿图",
             "path": "Omics/ManhattanPlot"
           },
           {
-            "title": "MultiVolcanoPlot",
+            "title": "多组火山图",
             "path": "Omics/MultiVolcanoPlot"
           },
           {
-            "title": "NetworkPlot",
+            "title": "网络图",
             "path": "Omics/NetworkPlot"
           },
           {
-            "title": "SankeyBubblePlot",
+            "title": "组合桑基气泡图",
             "path": "Omics/SankeyBubblePlot"
           },
           {
-            "title": "VolcanoPlot",
+            "title": "火山图",
             "path": "Omics/VolcanoPlot"
           },
           {
-            "title": "ChromosomePlot",
+            "title": "染色体图",
             "path": "Omics/ChromosomePlot"
           },
           {
-            "title": "PopulationMapPlot",
+            "title": "人口图",
             "path": "Omics/PopulationMapPlot"
           },
           {
-            "title": "SyntenyBlocksPlot",
+            "title": "共线性块图",
             "path": "Omics/SyntenyBlocksPlot"
           },
           {
-            "title": "KeggPathwayPlot",
+            "title": "KEGG通路图",
             "path": "Omics/KeggPathwayPlot"
           },
           {
-            "title": "MultiSeqsAlignment",
+            "title": "多序列比对可视化",
             "path": "Omics/MultiSeqsAlignment"
           },
           {
-            "title": "GWAS Circos Plot",
+            "title": "全基因组关联分析圈图",
             "path": "Omics/GwasSnpPlot"
           }
         ]
       },
       {
-        "group": "CLINICS",
+        "group": "临床",
         "pages": [
           {
-            "title": "Nomogram",
+            "title": "诺莫图",
             "path": "Clinics/Nomogram"
           },
           {
-            "title": "RegressionTable",
+            "title": "回归分析表格",
             "path": "Clinics/RegressionTable"
           },
           {
-            "title": "MetaForestPlot",
+            "title": "元分析森林图",
             "path": "Clinics/MetaForestPlot"
           },
           {
-            "title": "LollipopPlot",
+            "title": "棒棒糖图",
             "path": "Clinics/LollipopPlot"
           },
           {
-            "title": "KaplanMeierPlot",
+            "title": "KM 曲线",
             "path": "Clinics/KaplanMeierPlot"
           },
           {
-            "title": "MosaicPlot",
+            "title": "马赛克图",
             "path": "Clinics/MosaicPlot"
           }
         ]
