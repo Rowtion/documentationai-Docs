@@ -137,7 +137,7 @@ ggplot(data.frame(wdbc_umap$layout, Diagnosis = diagnosis),
   scale_color_manual(values = c("benign" = "#1b9e77", "malignant" = "#d95f02"))
 ```
 
-::: {#fig-1-1}
+:::
 ![](../images/Correlation/UMAPplot_fig1-1.png){fig-alt="UMAPplot1-1" fig-align="center" width="60%"}
 
 临床表型数据UMAP可视化
@@ -196,7 +196,7 @@ for (i in seq_along(params)) {
 (plots[[1]] / plots[[2]] / plots[[3]])
 ```
 
-::: {#fig-1-2}
+:::
 ![](../images/Correlation/UMAPplot_fig1-2.png){fig-alt="UMAPplot1-2" fig-align="center" width="60%"}
 
 参数敏感性分析
@@ -227,7 +227,7 @@ for (i in seq_along(group_ident)) {
 (plots[[1]] / plots[[2]])
 ```
 
-::: {#fig-2-1}
+:::
 ![](../images/Correlation/UMAPplot_fig2-1.png){fig-alt="UMAPplot2-1" fig-align="center" width="60%"}
 
 Seurat UMAP可视化
@@ -261,14 +261,14 @@ ggplot(umap_df, aes(UMAP_1, UMAP_2, color = CellType)) +
       scale_color_manual(values = custom_colors)
 ```
 
-::: {#fig-3-1}
+:::
 ![](../images/Correlation/UMAPplot_fig3-1.png){fig-alt="UMAPplot3-1" fig-align="center" width="60%"}
 
 ggplot2自定义UMAP可视化
 
 ## 应用场景
 
-::: {#fig-UMAPApplications}
+:::
 ![](../images/Correlation/UMAPplot_app.png){fig-alt="UMAPApp1" fig-align="center" width="60%"}
 
 UMAP图应用

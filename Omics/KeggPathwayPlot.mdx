@@ -78,14 +78,14 @@ p1 <- pathview(gene.data = gse16873.d[, 1], # 输入基因矩阵
 p1
 ```
 
-::: {#fig-1-1}
+:::
 ![](../images/Omics/KeggPathwayPlot_fig1-1.png){fig-alt="KeggPathwayPlot_fig1-1" fig-align="center" width="60%"}
 
 KEGG视图
 
 为了更好的理解kegg.native = TRUE，我们对比一下KEGG官网的Cell cycle的通路图（<https://www.kegg.jp/pathway/map04110>）
 
-::: {#fig-1-2}
+:::
 ![](../images/Omics/KeggPathwayPlot_fig1-2.png){fig-alt="KeggPathwayPlot_fig1-2" fig-align="center" width="60%"}
 
 KEGG官网的Cell cycle的通路图
@@ -133,7 +133,7 @@ p2 <- pathview(gene.data = gse16873.d[, 1],
 p2
 ```
 
-::: {#fig-1-3}
+:::
 ![](../images/Omics/KeggPathwayPlot_fig1-3.png){fig-alt="KeggPathwayPlot_fig1-3" fig-align="center" width="60%"}
 
 Graphviz视图
@@ -164,7 +164,7 @@ p3 <- pathview(gene.data = gse16873.d[, 1],
 p3
 ```
 
-::: {#fig-1-4}
+:::
 ![](../images/Omics/KeggPathwayPlot_fig1-4.png){fig-alt="KeggPathwayPlot_fig1-4" fig-align="center" width="60%"}
 
 same-layer设置
@@ -201,7 +201,7 @@ p4 <- pathview(gene.data = gse16873.d[, 1],
 p4
 ```
 
-::: {#fig-1-5}
+:::
 ![](../images/Omics/KeggPathwayPlot_fig1-5.png){fig-alt="KeggPathwayPlot_fig1-5" fig-align="center" width="60%"}
 
 节点样式调整
@@ -234,7 +234,7 @@ p5 <- pathview(gene.data = gse16873.d[, 1],
 p5
 ```
 
-::: {#fig-1-6}
+:::
 ![](../images/Omics/KeggPathwayPlot_fig1-6.png){fig-alt="KeggPathwayPlot_fig1-6" fig-align="center" width="60%"}
 
 节点的拆分与扩展
@@ -272,7 +272,7 @@ setdiff(unique(B),intersect(A,B))
 
 然后发现线条变得错综复杂，以至于我们重点关注的节点和节点之间的关系被淹没了。
 
-::: {#fig-1-7}
+:::
 ![](../images/Omics/KeggPathwayPlot_fig1-7.png){fig-alt="KeggPathwayPlot_fig1-7" fig-align="center" width="60%"}
 
 多基因节点扩展为单个基因
@@ -303,7 +303,7 @@ p8 <- pathview(gene.data = gse16873.d[, 1:3], # 多样本
 
 呈现的效果是：节点被分割成多个对应样本数量的片段，一个样本对应一个色块
 
-::: {#fig-1-8}
+:::
 ![](../images/Omics/KeggPathwayPlot_fig1-8.png){fig-alt="KeggPathwayPlot_fig1-8" fig-align="center" width="60%"}
 
 多组样本
@@ -347,7 +347,7 @@ p9 <- pathview(cpd.data = cpd_data2, # 化合物数据
                ) 
 ```
 
-::: {#fig-1-9}
+:::
 ![](../images/Omics/KeggPathwayPlot_fig1-9.png){fig-alt="KeggPathwayPlot_fig1-9" fig-align="center" width="60%"}
 
 KEGG视图
@@ -374,7 +374,7 @@ p10 <- pathview(cpd.data = cpd_data, # 化合物数据
                ) 
 ```
 
-::: {#fig-1-10}
+:::
 ![](../images/Omics/KeggPathwayPlot_fig1-10.png){fig-alt="KeggPathwayPlot_fig1-10" fig-align="center" width="60%"}
 
 Graphviz视图
@@ -413,7 +413,7 @@ p11 <- pathview(gene.data = gene_data[,1:4], # 基因数据
                ) 
 ```
 
-::: {#fig-1-11}
+:::
 ![](../images/Omics/KeggPathwayPlot_fig1-11.png){fig-alt="KeggPathwayPlot_fig1-11" fig-align="center" width="60%"}
 
 KEGG视图
@@ -448,7 +448,7 @@ p12 <- pathview(gene.data = gene_data[,1:4], # 基因数据
                ) 
 ```
 
-::: {#fig-1-12}
+:::
 ![](../images/Omics/KeggPathwayPlot_fig1-12.png){fig-alt="KeggPathwayPlot_fig1-12" fig-align="center" width="60%"}
 
 Graphviz视图
@@ -486,7 +486,7 @@ p13 <- pathview(gene.data = gene_data[,1:4],
 
 可以发现化合物节点只有一半是有颜色的，因为另一半是NA，默认为透明无色。
 
-::: {#fig-1-13}
+:::
 ![](../images/Omics/KeggPathwayPlot_fig1-13.png){fig-alt="KeggPathwayPlot_fig1-13" fig-align="center" width="60%"}
 
 设置颜色
@@ -541,7 +541,7 @@ p14 <- pathview(gene.data = gene_data2[,1:4], # 离散变量
                ) 
 ```
 
-::: {#fig-1-14}
+:::
 ![](../images/Omics/KeggPathwayPlot_fig1-14.png){fig-alt="KeggPathwayPlot_fig1-14" fig-align="center" width="60%"}
 
 离散数据1
@@ -577,14 +577,14 @@ p15 <- pathview(gene.data = gene_data[,1:4], # 离散变量
                ) 
 ```
 
-::: {#fig-1-15}
+:::
 ![](../images/Omics/KeggPathwayPlot_fig1-15.png){fig-alt="KeggPathwayPlot_fig1-15" fig-align="center" width="60%"}
 
 离散数据2
 
 ## 应用场景
 
-::: {#fig-KeggPathwayPlotApplications}
+:::
 ![](../images/Omics/KeggPathwayPlot_app.png){fig-alt="KeggPathwayPlotApp1" fig-align="center" width="60%"}
 
 KEGG通路图应用

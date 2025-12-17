@@ -83,7 +83,7 @@ ideogram(karyotype = human_karyotype)
 convertSVG("chromosome.svg", device = "png")
 ```
 
-::: {#fig-1BasicChromosomePlot}
+:::
 ![](../images/Omics/ChromosomePlot_fig1.png){fig-alt="基础染色体图" fig-align="center" width="95%"}
 
 基础染色体图
@@ -104,7 +104,7 @@ ideogram(karyotype = human_karyotype, overlaid = gene_density)
 convertSVG("chromosome.svg", device = "png")
 ```
 
-::: {#fig-1HeatmapChromosomePlot}
+:::
 ![](../images/Omics/ChromosomePlot_fig2.png){fig-alt="包含热图的染色体图" fig-align="center" width="95%"}
 
 包含热图的染色体图
@@ -125,7 +125,7 @@ ideogram(karyotype = human_karyotype, label = Random_RNAs_500, label_type = "mar
 convertSVG("chromosome.svg", device = "png")
 ```
 
-::: {#fig-1LabelChromosomePlot}
+:::
 ![](../images/Omics/ChromosomePlot_fig3.png){fig-alt="轨迹标签" fig-align="center" width="95%"}
 
 轨迹标签
@@ -146,7 +146,7 @@ ideogram(karyotype = human_karyotype, overlaid = gene_density, label = Random_RN
 convertSVG("chromosome.svg", device = "png")
 ```
 
-::: {#fig-1Both}
+:::
 ![](../images/Omics/ChromosomePlot_fig4.png){fig-alt="同时绘制热图与轨迹标签" fig-align="center" width="95%"}
 
 同时绘制热图与轨迹标签
@@ -167,7 +167,7 @@ ideogram(karyotype = human_karyotype, overlaid = gene_density, label = Random_RN
 convertSVG("chromosome.svg", device = "png")
 ```
 
-::: {#fig-1Both}
+:::
 ![](../images/Omics/ChromosomePlot_fig5.png){fig-alt="自定义热图颜色" fig-align="center" width="95%"}
 
 自定义热图颜色
@@ -191,7 +191,7 @@ ideogram(karyotype = human_karyotype, overlaid = gene_density, label = Random_RN
 convertSVG("chromosome.svg", device = "png")
 ```
 
-::: {#fig-6}
+:::
 ![](../images/Omics/ChromosomePlot_fig6.png){fig-alt="不含着丝粒信息的染色体图" fig-align="center" width="95%"}
 
 不含着丝粒信息的染色体图
@@ -219,7 +219,7 @@ ideogram(karyotype = human_karyotype, overlaid = gene_density, label = Random_RN
 convertSVG("chromosome.svg", device = "png")
 ```
 
-::: {#fig-7-1}
+:::
 ![](../images/Omics/ChromosomePlot_fig7-1.png){fig-alt="仅使用部分染色体时的宽度设置" fig-align="center" width="95%"}
 
 修改前
@@ -239,7 +239,7 @@ ideogram(karyotype = human_karyotype, overlaid = gene_density, label = Random_RN
 convertSVG("chromosome.svg", device = "png")
 ```
 
-::: {#fig-7-2}
+:::
 ![](../images/Omics/ChromosomePlot_fig7-2.png){fig-alt="仅使用部分染色体时的宽度设置" fig-align="center" width="95%"}
 
 修改后
@@ -265,7 +265,7 @@ ideogram(karyotype = human_karyotype, overlaid = gene_density, label = Random_RN
 convertSVG("chromosome.svg", device = "png")
 ```
 
-::: {#fig-8}
+:::
 ![](../images/Omics/ChromosomePlot_fig8.png){fig-alt="调整图例位置" fig-align="center" width="95%"}
 
 调整图例位置
@@ -294,7 +294,7 @@ ideogram(karyotype = human_karyotype, overlaid = gene_density, label = LTR_densi
 convertSVG("chromosome.svg", device = "png")
 ```
 
-::: {#fig-9-1}
+:::
 ![](../images/Omics/ChromosomePlot_fig9-1.png){fig-alt="热图标签" fig-align="center" width="95%"}
 
 热图标签
@@ -318,7 +318,7 @@ ideogram(karyotype = liriodendron_karyotype, overlaid = Fst_between_CE_and_CW, l
 convertSVG("chromosome.svg", device = "png")
 ```
 
-::: {#fig-9-2}
+:::
 ![](../images/Omics/ChromosomePlot_fig9-2.png){fig-alt="单条折线标签" fig-align="center" width="95%"}
 
 单条折线标签
@@ -342,7 +342,7 @@ ideogram(karyotype = liriodendron_karyotype, overlaid = Fst_between_CE_and_CW, l
 convertSVG("chromosome.svg", device = "png")
 ```
 
-::: {#fig-9-3}
+:::
 ![](../images/Omics/ChromosomePlot_fig9-3.png){fig-alt="双条折线标签" fig-align="center" width="95%"}
 
 双条折线标签
@@ -366,7 +366,7 @@ ideogram(karyotype = liriodendron_karyotype, overlaid = Fst_between_CE_and_CW, l
 convertSVG("chromosome.svg", device = "png")
 ```
 
-::: {#fig-9-4}
+:::
 ![](../images/Omics/ChromosomePlot_fig9-4.png){fig-alt="单个多边形标签" fig-align="center" width="95%"}
 
 单个多边形标签
@@ -390,7 +390,7 @@ ideogram(karyotype = liriodendron_karyotype, overlaid = Fst_between_CE_and_CW, l
 convertSVG("chromosome.svg", device = "png")
 ```
 
-::: {#fig-9-5}
+:::
 ![](../images/Omics/ChromosomePlot_fig9-5.png){fig-alt="双多边形标签" fig-align="center" width="95%"}
 
 双多边形标签
@@ -428,12 +428,12 @@ svg2tiff("chromosome.svg")
 
 ## 应用
 
-::: {#fig-ChromosomePlotApplications1}
+:::
 ![](../images/Omics/ChromosomePlot_app1.jpg){fig-alt="ChromosomePlotApp1" fig-align="center" width="60%"}
 
 iMapper 映射和分析插入位点序列数据
 
-::: {#fig-ChromosomePlotApplications2}
+:::
 ![](../images/Omics/ChromosomePlot_app2.jpg){fig-alt="ChromosomePlotApp2" fig-align="center" width="60%"}
 
 由 IsoPlotter 推断并映射到染色体上的组合结构域示意图

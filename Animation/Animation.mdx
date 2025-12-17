@@ -119,7 +119,7 @@ p <- ggplot(data_gapminder, aes(gdpPercap, lifeExp, size = pop, color = continen
 animate(p, renderer = gifski_renderer())
 ```
 
-::: {#fig-PointAnimation}
+:::
 ![](../images/Animation_plot1.gif){fig-alt="PointAnimation" fig-align="center" width="95%"}
 
 散点气泡动画图
@@ -152,7 +152,7 @@ p <- ggplot(data_gapminder, aes(gdpPercap, lifeExp, size = pop, colour = country
 animate(p, renderer = gifski_renderer())
 ```
 
-::: {#fig-GroupPointAnimation}
+:::
 ![](../images/Animation_plot2.gif){fig-alt="GroupPointAnimation" fig-align="center" width="95%"}
 
 分组散点气泡动画图
@@ -191,7 +191,7 @@ p <- ggplot(data, aes(x=group, y=values, fill=group)) +
 animate(p, renderer = gifski_renderer())
 ```
 
-::: {#fig-frame}
+:::
 ![](../images/Animation_plot3.gif){fig-alt="frame" fig-align="center" width="95%"}
 
 区间过渡条形图
@@ -225,7 +225,7 @@ p <- ggplot(data_covi19_bar, aes(x=area, y=cases, fill=area)) +
 animate(p, renderer = gifski_renderer())
 ```
 
-::: {#fig-covi19}
+:::
 ![](../images/Animation_plot4.gif){fig-alt="covi19" fig-align="center" width="95%"}
 
 以新冠感染数据为例
@@ -261,7 +261,7 @@ don %>%
   transition_reveal(year) #以时间作为动画依据
 ```
 
-::: {#fig-babynames}
+:::
 ![](../images/Animation_plot5.gif){fig-alt="babynames" fig-align="center" width="95%"}
 
 动态折线图
@@ -290,7 +290,7 @@ data_covi19 %>%
   transition_reveal(date) #以时间作为动画依据
 ```
 
-::: {#fig-2covi19}
+:::
 ![](../images/Animation_plot6.gif){fig-alt="2covi19" fig-align="center" width="95%"}
 
 以新冠感染数据为例
@@ -301,14 +301,14 @@ data_covi19 %>%
 
 动画图可应用于各种shiny网页，实现数据的动态更新与实况展示。
 
-::: {#fig-AnimationApplications}
+:::
 ![](../images/Animation_app.png){fig-alt="AnimationApp1" fig-align="center" width="60%"}
 
 动画图应用场景
 
 上图为疫情期间实时展现日本疫情动态的shiny网页工具GitHub - swsoyee/2019-ncov-japan: 🦠 Interactive dashboard for real-time recording of COVID-19 outbreak in Japan
 
-::: {#fig-AnimationApplications}
+:::
 ![](../images/Animation_app2.gif){fig-alt="AnimationApp2" fig-align="center" width="60%"}
 
 动画图应用场景
