@@ -2,15 +2,6 @@
   "navigation": {
     "groups": [
       {
-        "group": "Welcome",
-        "pages": [
-          {
-            "title": "前言",
-            "path": "index"
-          }
-        ]
-      },
-      {
         "group": "Distribution",
         "pages": [
           {
