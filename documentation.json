@@ -1,117 +1,328 @@
 {
-  "navigation": [
-    "index",
-    {
-      "group": "Distribution",
-      "pages": [
-        "Distribution/ViolinPlot",
-        "Distribution/Density",
-        "Distribution/Histogram",
-        "Distribution/BreakPlot",
-        "Distribution/BoxPlot",
-        "Distribution/Ridgeline",
-        "Distribution/Beeswarm",
-        "Distribution/RadialColumnChart"
-      ]
-    },
-    {
-      "group": "Correlation",
-      "pages": [
-        "Correlation/Scatter",
-        "Correlation/Heatmap",
-        "Correlation/ComplexHeatmap",
-        "Correlation/Correlogram",
-        "Correlation/Bubble",
-        "Correlation/ConnectedScatter",
-        "Correlation/Density2D",
-        "Correlation/PCAplot",
-        "Correlation/UMAPplot",
-        "Correlation/Biplot",
-        "Correlation/TernaryPlot"
-      ]
-    },
-    {
-      "group": "Ranking",
-      "pages": [
-        "Ranking/BarPlot",
-        "Ranking/Radar",
-        "Ranking/Wordcloud",
-        "Ranking/Parallel",
-        "Ranking/Lollipop",
-        "Ranking/CircularBarplot",
-        "Ranking/Table",
-        "Ranking/VennPlot",
-        "Ranking/UpsetPlot"
-      ]
-    },
-    {
-      "group": "Composition",
-      "pages": [
-        "Composition/GroupedBarplot",
-        "Composition/Treemap",
-        "Composition/Donut",
-        "Composition/PieChart",
-        "Composition/PartPieChart",
-        "Composition/Dendrogram",
-        "Composition/CircularPacking",
-        "Composition/Waffle"
-      ]
-    },
-    {
-      "group": "Evolution",
-      "pages": [
-        "DataOverTime/LineChart",
-        "DataOverTime/AreaChart",
-        "DataOverTime/StackedArea",
-        "DataOverTime/Streamgraph",
-        "DataOverTime/Timeseries",
-        "DataOverTime/CalendHighlight"
-      ]
-    },
-    {
-      "group": "Proportion/Flow",
-      "pages": [
-        "Proportion/ChordDiagram",
-        "Proportion/Network",
-        "Proportion/Sankey",
-        "Proportion/ArcDiagram"
-      ]
-    },
-    {
-      "group": "Animation",
-      "pages": [
-        "Animation/Animation",
-        "Animation/Interactivity"
-      ]
-    },
-    {
-      "group": "OMICS",
-      "pages": [
-        "Omics/CollinearityPlot",
-        "Omics/GeneStructurePlot",
-        "Omics/ManhattanPlot",
-        "Omics/MultiVolcanoPlot",
-        "Omics/NetworkPlot",
-        "Omics/SankeyBubblePlot",
-        "Omics/VolcanoPlot",
-        "Omics/ChromosomePlot",
-        "Omics/PopulationMapPlot",
-        "Omics/SyntenyBlocksPlot",
-        "Omics/KeggPathwayPlot",
-        "Omics/MultiSeqsAlignment",
-        "Omics/GwasSnpPlot"
-      ]
-    },
-    {
-      "group": "CLINICS",
-      "pages": [
-        "Clinics/Nomogram",
-        "Clinics/RegressionTable",
-        "Clinics/MetaForestPlot",
-        "Clinics/LollipopPlot",
-        "Clinics/KaplanMeierPlot",
-        "Clinics/MosaicPlot"
-      ]
-    }
-  ]
+  "navigation": {
+    "groups": [
+      {
+        "group": "Welcome",
+        "pages": [
+          {
+            "title": "前言",
+            "path": "index"
+          }
+        ]
+      },
+      {
+        "group": "Distribution",
+        "pages": [
+          {
+            "title": "Violin Plot",
+            "path": "Distribution/ViolinPlot"
+          },
+          {
+            "title": "Density Plot",
+            "path": "Distribution/Density"
+          },
+          {
+            "title": "Histogram",
+            "path": "Distribution/Histogram"
+          },
+          {
+            "title": "BreakPlot",
+            "path": "Distribution/BreakPlot"
+          },
+          {
+            "title": "Box Plot",
+            "path": "Distribution/BoxPlot"
+          },
+          {
+            "title": "Ridgeline Plot",
+            "path": "Distribution/Ridgeline"
+          },
+          {
+            "title": "Beeswarm Plot",
+            "path": "Distribution/Beeswarm"
+          },
+          {
+            "title": "RadialColumnChart",
+            "path": "Distribution/RadialColumnChart"
+          }
+        ]
+      },
+      {
+        "group": "Correlation",
+        "pages": [
+          {
+            "title": "Scatter Plot",
+            "path": "Correlation/Scatter"
+          },
+          {
+            "title": "Heatmap",
+            "path": "Correlation/Heatmap"
+          },
+          {
+            "title": "ComplexHeatmap",
+            "path": "Correlation/ComplexHeatmap"
+          },
+          {
+            "title": "Correlogram",
+            "path": "Correlation/Correlogram"
+          },
+          {
+            "title": "Bubble Plot",
+            "path": "Correlation/Bubble"
+          },
+          {
+            "title": "Connected Scatter",
+            "path": "Correlation/ConnectedScatter"
+          },
+          {
+            "title": "2D Density",
+            "path": "Correlation/Density2D"
+          },
+          {
+            "title": "PCA Plot",
+            "path": "Correlation/PCAplot"
+          },
+          {
+            "title": "UMAP Plot",
+            "path": "Correlation/UMAPplot"
+          },
+          {
+            "title": "Biplot",
+            "path": "Correlation/Biplot"
+          },
+          {
+            "title": "TernaryPlot",
+            "path": "Correlation/TernaryPlot"
+          }
+        ]
+      },
+      {
+        "group": "Ranking",
+        "pages": [
+          {
+            "title": "Bar Plot",
+            "path": "Ranking/BarPlot"
+          },
+          {
+            "title": "Radar/Spider Chart",
+            "path": "Ranking/Radar"
+          },
+          {
+            "title": "Wordcloud",
+            "path": "Ranking/Wordcloud"
+          },
+          {
+            "title": "Parallel Coordinates Plot",
+            "path": "Ranking/Parallel"
+          },
+          {
+            "title": "Lollipop Plot",
+            "path": "Ranking/Lollipop"
+          },
+          {
+            "title": "Circular Barplot",
+            "path": "Ranking/CircularBarplot"
+          },
+          {
+            "title": "Table",
+            "path": "Ranking/Table"
+          },
+          {
+            "title": "VeenPlot",
+            "path": "Ranking/VennPlot"
+          },
+          {
+            "title": "UpsetPlot",
+            "path": "Ranking/UpsetPlot"
+          }
+        ]
+      },
+      {
+        "group": "Composition",
+        "pages": [
+          {
+            "title": "Grouped and Stacked Barplot",
+            "path": "Composition/GroupedBarplot"
+          },
+          {
+            "title": "Treemap",
+            "path": "Composition/Treemap"
+          },
+          {
+            "title": "Donut Chart",
+            "path": "Composition/Donut"
+          },
+          {
+            "title": "Pie Chart",
+            "path": "Composition/PieChart"
+          },
+          {
+            "title": "Part Pie Chart",
+            "path": "Composition/PartPieChart"
+          },
+          {
+            "title": "Dendrogram",
+            "path": "Composition/Dendrogram"
+          },
+          {
+            "title": "Circular Packing Chart",
+            "path": "Composition/CircularPacking"
+          },
+          {
+            "title": "Waffle Chart",
+            "path": "Composition/Waffle"
+          }
+        ]
+      },
+      {
+        "group": "Evolution",
+        "pages": [
+          {
+            "title": "Line Chart",
+            "path": "DataOverTime/LineChart"
+          },
+          {
+            "title": "Area Chart",
+            "path": "DataOverTime/AreaChart"
+          },
+          {
+            "title": "Stacked Area Chart",
+            "path": "DataOverTime/StackedArea"
+          },
+          {
+            "title": "Streamgraph",
+            "path": "DataOverTime/Streamgraph"
+          },
+          {
+            "title": "Timeseries",
+            "path": "DataOverTime/Timeseries"
+          },
+          {
+            "title": "Calend Highlight",
+            "path": "DataOverTime/CalendHighlight"
+          }
+        ]
+      },
+      {
+        "group": "Proportion/Flow",
+        "pages": [
+          {
+            "title": "Chord Diagram",
+            "path": "Proportion/ChordDiagram"
+          },
+          {
+            "title": "Network Graph",
+            "path": "Proportion/Network"
+          },
+          {
+            "title": "Sankey Diagram",
+            "path": "Proportion/Sankey"
+          },
+          {
+            "title": "Arc Diagram",
+            "path": "Proportion/ArcDiagram"
+          }
+        ]
+      },
+      {
+        "group": "Animation",
+        "pages": [
+          {
+            "title": "Animation",
+            "path": "Animation/Animation"
+          },
+          {
+            "title": "Interactivity",
+            "path": "Animation/Interactivity"
+          }
+        ]
+      },
+      {
+        "group": "OMICS",
+        "pages": [
+          {
+            "title": "CollinearityPlot",
+            "path": "Omics/CollinearityPlot"
+          },
+          {
+            "title": "GeneStructurePlot",
+            "path": "Omics/GeneStructurePlot"
+          },
+          {
+            "title": "ManhattanPlot",
+            "path": "Omics/ManhattanPlot"
+          },
+          {
+            "title": "MultiVolcanoPlot",
+            "path": "Omics/MultiVolcanoPlot"
+          },
+          {
+            "title": "NetworkPlot",
+            "path": "Omics/NetworkPlot"
+          },
+          {
+            "title": "SankeyBubblePlot",
+            "path": "Omics/SankeyBubblePlot"
+          },
+          {
+            "title": "VolcanoPlot",
+            "path": "Omics/VolcanoPlot"
+          },
+          {
+            "title": "ChromosomePlot",
+            "path": "Omics/ChromosomePlot"
+          },
+          {
+            "title": "PopulationMapPlot",
+            "path": "Omics/PopulationMapPlot"
+          },
+          {
+            "title": "SyntenyBlocksPlot",
+            "path": "Omics/SyntenyBlocksPlot"
+          },
+          {
+            "title": "KeggPathwayPlot",
+            "path": "Omics/KeggPathwayPlot"
+          },
+          {
+            "title": "MultiSeqsAlignment",
+            "path": "Omics/MultiSeqsAlignment"
+          },
+          {
+            "title": "GWAS Circos Plot",
+            "path": "Omics/GwasSnpPlot"
+          }
+        ]
+      },
+      {
+        "group": "CLINICS",
+        "pages": [
+          {
+            "title": "Nomogram",
+            "path": "Clinics/Nomogram"
+          },
+          {
+            "title": "RegressionTable",
+            "path": "Clinics/RegressionTable"
+          },
+          {
+            "title": "MetaForestPlot",
+            "path": "Clinics/MetaForestPlot"
+          },
+          {
+            "title": "LollipopPlot",
+            "path": "Clinics/LollipopPlot"
+          },
+          {
+            "title": "KaplanMeierPlot",
+            "path": "Clinics/KaplanMeierPlot"
+          },
+          {
+            "title": "MosaicPlot",
+            "path": "Clinics/MosaicPlot"
+          }
+        ]
+      }
+    ]
+  }
 }
