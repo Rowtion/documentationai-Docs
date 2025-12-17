@@ -6,8 +6,8 @@
         "group": "Introduction",
         "pages": [
           {
-            "title": "Welcome",
-            "path": "home"
+            "title": "Introduction",
+            "path": "get-started/introduction"
           }
         ]
       },
