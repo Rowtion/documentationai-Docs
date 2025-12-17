@@ -1,6 +1,11 @@
 {
   "navigation": [
     {
+      "type": "doc",
+      "label": "前言",
+      "id": "index"
+    },
+    {
       "type": "category",
       "label": "Distribution",
       "items": [
